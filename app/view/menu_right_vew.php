@@ -13,7 +13,7 @@
                         <ul class="side-list">
                             <?php foreach ($data_nsx as $key => $value) {
                                 ?>
-                                <li><a href="#"><?php echo $value['TenNSX'];?></a></li>
+                                <li><a href="?cn=home&method=nhasanxuat&idnhasanxuat=<?php echo $value['id_nsx'];?>"><?php echo $value['TenNSX'];?></a></li>
                             <?php } ?>
                         </ul>
                         <strong class="title">Giá</strong>
